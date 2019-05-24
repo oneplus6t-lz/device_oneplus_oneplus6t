@@ -35,8 +35,8 @@ AB_OTA_UPDATER := true
 DEVICE_PACKAGE_OVERLAYS += device/oneplus/oneplus6/overlay/common
 DEVICE_PACKAGE_OVERLAYS += device/oneplus/oneplus6t/overlay/device
 
-# Inherit from our custom product configuration
-$(call inherit-product, vendor/skydragon/products/common.mk)
+# Inherit some common Broken stuff.
+$(call inherit-product, vendor/broken/config/common_full_phone.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/oneplus/oneplus6t/device.mk)
@@ -44,7 +44,7 @@ $(call inherit-product, device/oneplus/oneplus6t/device.mk)
 ALLOW_MISSING_DEPENDENCIES := true
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := skydragon_oneplus6t
+PRODUCT_NAME := broken_oneplus6t
 PRODUCT_DEVICE := oneplus6t
 PRODUCT_BRAND := OnePlus
 PRODUCT_MANUFACTURER := OnePlus

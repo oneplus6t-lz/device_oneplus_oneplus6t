@@ -1,0 +1,26 @@
+[
+  {
+    "remote": "github",
+    "repository": "oneplus6t-lz/device_oneplus_oneplus6",
+    "target_path": "device/oneplus/oneplus6",
+    "branch": "pie"
+  },
+  {
+    "remote": "github",
+    "repository": "oneplus6t-lz/OnePlus6T-LZ",
+    "target_path": "kernel/oneplus/OnePlus6T-LZ",
+    "branch": "pie"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-16.0"
+  },
+  {
+    "remote": "github",
+    "repository": "TheMuppets/proprietary_vendor_oneplus",
+    "target_path": "vendor/oneplus",
+    "branch": "lineage-16.0"
+  }
+]
