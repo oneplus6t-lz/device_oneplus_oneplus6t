@@ -20,6 +20,6 @@
 # In particular, you can add lunch options with the add_lunch_combo
 # function: add_lunch_combo generic-eng
 
-add_lunch_combo skydragon_oneplus6t-user
-add_lunch_combo skydragon_oneplus6t-userdebug
-add_lunch_combo skydragon_oneplus6t-eng
+add_lunch_combo broken_oneplus6t-user
+add_lunch_combo broken_oneplus6t-userdebug
+add_lunch_combo broken_oneplus6t-eng
