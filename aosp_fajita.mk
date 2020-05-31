@@ -38,6 +38,10 @@ TARGET_INCLUDE_WIFI_EXT := true
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.product.device=OnePlus6T
 
+# Disable night light on FOD view
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.fod.night_mode_disabled=true
+
 PRODUCT_NAME := aosp_fajita
 PRODUCT_DEVICE := fajita
 PRODUCT_MANUFACTURER := OnePlus
